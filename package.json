@@ -1,0 +1,11 @@
+{
+  "name": "one",
+  "version": "1.0.0",
+  "description": "This is a simple Node.js server that returns information in `JSON format`. The server provides the following data:",
+  "main": "one.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
