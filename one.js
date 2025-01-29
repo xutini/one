@@ -13,8 +13,8 @@ const server = http.createServer((req, res) => {
   // Prepare the data to send in the JSON response
   const responseData = {
     email: email,
-    timestamp: new Date().toISOString(), // Get the current date in ISO 8601 format
-    githubURL: githubURL
+    current_datetime: new Date().toISOString(), // Get the current date in ISO 8601 format
+    github_url: githubURL
   };
 
   // Send the JSON response
